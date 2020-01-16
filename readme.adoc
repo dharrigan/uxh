@@ -1,0 +1,6 @@
+
+`clojure -m core`
+
+and
+
+`clojure --report stderr -m core`
