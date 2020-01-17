@@ -1,4 +1,5 @@
-(ns core)
+(ns core
+  (:gen-class))
 
 (Thread/setDefaultUncaughtExceptionHandler
  (reify Thread$UncaughtExceptionHandler
